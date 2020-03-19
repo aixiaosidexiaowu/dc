@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+
+<link rel="stylesheet" type="text/css" href="style/reset.css">
+<link rel="stylesheet" type="text/css"  href="style/main.css">
+</head>
+
+<body>
+<div class="headerBar">
+	<div class="topBar">
+		<div class="comWidth">
+			<div class="leftArea">
+				<a href="#" class="collection">收藏慕课</a>
+			</div>
+			<div class="rightArea">
+				欢迎来到慕课网！<a href="#">[登录]</a><a href="#">[注册]</a>
+			</div>
+		</div>
+	</div>
+	<div class="logoBar">
+		<div class="comWidth">
+			<div class="logo fl">
+				<a href="#" ><img  src="image/logo/logo.png" alt="慕课网"></a>
+			</div>
+			<div class="stepBox fr">
+				<div class="step"></div>
+				<ul class="step_text">
+					<li class="s01 active">我的购物车</li>
+					<li class="s02 active">填写核对订单</li>
+					<li class="s03">订单提交成功</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="navBox">
+		<div class="comWidth">
+			<div class="shopClass fl">
+				<h3>全部商品分类<i></i></h3>
+			</div>
+			<ul class="nav fl">
+				<li><a href="#" class="active">数码城</a></li>
+				<li><a href="#">天黑黑</a></li>
+				<li><a href="#">团购</a></li>
+				<li><a href="#">发现</a></li>
+				<li><a href="#">二手特卖</a></li>
+				<li><a href="#">名品会</a></li>
+			</ul>
+		</div>
+	</div>		
+</div>
+<div class="shoppingCart comWidth">
+	<div class="shopping_item clearfix">
+		<h3 class="shopping_tit">收货信息</h3>
+		<div class="shopping_cont padding_shop">
+			<ul class="shopping_list clearfix">
+				<li>
+					<span><em>*</em>选择地区：</span>
+					<select class="select">
+						<option value="地址" selected="selected">北京市&nbsp;海淀区&nbsp;五环内</option>
+					</select>
+				</li>
+				<li>
+					<span><em>*</em>详细地址：</span><input type="text" value="最多输入26个汉字" class="input input_b">
+				</li>
+				<li>
+					<span><em>*</em>收货人：</span><input type="text" value="最多十个汉字" class="input">
+				</li>
+				<li>
+					<span><em>*</em>手机：</span><input type="text" value="如13452525625" class="input">&nbsp;或固定电话：<input type="text" value="区号" class="input">&nbsp;—&nbsp;<input type="text" value="电话号码" class="input">
+				</li>
+				<li><input type="button" class="affirm" value="确认收货"></li>
+			</ul>
+		</div>
+	</div>
+	<div class="hr"></div>
+	<div class="shopping_item clearfix">
+		<h3 class="shopping_tit">支付方式</h3>
+		<div class="shopping_cont padding_shop">
+			<ul class="shopping_list clearfix">
+				<li class="pay"><input type="radio" value="微信支付" name="pay"><span class="p1">微信支付</span><img src="image/购物车/6.购物车和结算页_r2_c.png" alt="icon"><span>用微信扫一扫就能支付！</span></li>
+				<li class="pay"><input type="radio" value="货到付款" name="pay"><span class="p1">货到付款</span><span>送货上门后再付款，使用现金或刷银行卡。</span></li>
+			</ul>
+		</div>
+	</div>
+	<div class="hr"></div>
+	<div class="shopping_item clearfix">
+		<h3 class="shopping_tit">发票信息</h3>
+		<div class="shopping_cont padding_shop">
+			<input class="bill" type="checkbox" value="发票" name="发票" checked="checked"><span class="bill_text">需要发票</span>
+			<ul class="shopping_list clearfix">
+				<li>
+					<span><em>*</em>发票类型：</span>
+					<select class="select">
+						<option value="bill" selected="selected">商业零售发票</option>
+					</select>
+				</li>
+				<li>
+					<span><em>*</em>发票抬头：</span>
+					<select class="select">
+						<option value="choose" selected="selected">个人</option>
+					</select>
+					<input type="text" value="阿斯顿" class="input">
+				</li>
+				<li><input type="button" class="aff" value="保存"><input type="button" class="new_aff" value="取消"></li>
+			</ul>
+		</div>
+	</div>
+	<div class="hr"></div>
+	<div class="shopping_item clearfix">
+		<h3 class="shopping_tit">送货清单<a href="#" class="backCar">返回购物车修改</a></h3>
+		<div class="shopping_cont pb_10">
+			<div class="cart_inner">
+				<div class="cart_head clearfix">
+					<div class="cart_item t_name">商品名称</div>
+					<div class="cart_item t_price">单价</div>
+					<div class="cart_item t_return">返现</div>
+					<div class="cart_item t_num">数量</div>
+					<div class="cart_item t_subtotal">小计</div>
+				</div>
+				<div class="cart_cont b_b clearfix">
+					<div class="cart_item t_name">
+						<div class="cart_shopInfo">
+							<div class="cart_img">
+								<img src="image/购物车/6.购物车和结算页_r2_c3.png" alt="shop">
+							</div>
+							<div class="cart_shopInfo_cont">
+								<p class="cart_link"><a href="#">海信三门冰箱&nbsp;银色</a></p>
+								<p class="cart_info">[赠品]保鲜盒</p>
+							</div>
+						</div>
+					</div>
+					<div class="cart_item t_price">单价</div>
+					<div class="cart_item t_return">返现</div>
+					<div class="cart_item t_num">数量</div>
+					<div class="cart_item t_subtotal t_red">小计</div>
+				</div>
+				<div class="cart_message">若有问题，请留言</div>
+				<div class="cart_prompt"><i class="cart_prompt_icon"></i>抱歉以下商品无法购买</div>
+				<div class="cart_cont clearfix">
+					<div class="cart_item t_name">
+						<div class="cart_shopInfo">
+							<div class="cart_img">
+								<img src="image/购物车/6.购物车和结算页_r2_c3.png" alt="shop">
+							</div>
+							<div class="cart_shopInfo_cont">
+								<p class="cart_link"><a href="#">海信三门冰箱&nbsp;银色</a></p>
+								<p class="cart_info">[赠品]保鲜盒</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hr"></div>
+	<div class="shopping_item clearfix">
+		<h3 class="shopping_tit">订单结算</h3>
+		<div class="shopping_cont padding_shop clearfix">
+			<div class="cart_count fr">
+				<div class="cart_rmb">
+					总计：<span>¥1459.00</span>
+				</div>
+				<input type="button" value="提交订单" class="cart_btn">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="hr"></div>
+<div class="footer">
+	<p><a href="#">慕课简介</a>&nbsp;|&nbsp;<a href="#">慕课公告</a>&nbsp;|&nbsp;<a href="#">招贤纳士</a>&nbsp;|&nbsp;<a href="#">联系我们</a>&nbsp;|&nbsp;<a href="#">客服热线：5555555555</a></p>
+	<p>Copyright © 2006 - 2014 慕课版权所有&nbsp;&nbsp;&nbsp;京ICP备09037834号&nbsp;&nbsp;&nbsp;   京ICP证B1034-8373号&nbsp;&nbsp;&nbsp;   某市公安局XX分局备案编号：123456789123</p>
+	<p class="web"><a href="#"><img src="image/webLogo.png" alt="logo"></a><a href="#"><img src="image/webLogo.png" alt="logo"></a><a href="#"><img src="image/webLogo.png" alt="logo"></a></p>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
